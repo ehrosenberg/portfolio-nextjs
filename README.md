@@ -22,3 +22,6 @@ Created using Next.js and pushed to GitHub.
 ```bash
 npm install
 npm run dev
+
+
+This project was run using the VS Code integrated terminal. 
