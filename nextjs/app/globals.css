@@ -24,3 +24,31 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+
+
+.viewBtn {
+  background-color: #e8a8c7;
+  /* your pink */
+  color: #7a2c91;
+  /* your purple text */
+  padding: 14px 28px;
+  border-radius: 12px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  display: inline-block;
+}
+
+/* ✨ HOVER EFFECT */
+.viewBtn:hover {
+  background-color: #d98bb0;
+  /* slightly darker pink */
+  transform: translateY(-3px);
+  /* lifts up */
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+.viewBtn:active {
+  transform: scale(0.97);
+}
