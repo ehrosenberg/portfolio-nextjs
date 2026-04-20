@@ -1,4 +1,15 @@
 import styles from "./page.module.css";
+import Image from "next/image";
+import TravelPosterDraft1 from "@/assets/images/travel-poster-draft-1.png";
+import TravelPosterInContextFinal from "@/assets/images/travel-poster-in-context-final.png";
+import Arrow from "@/icons/icons/arrow.svg";
+import Line from "@/icons/icons/line.svg";
+import IllustrativeSetFinal from "@/assets/images/illustrative-set-perfume-perfection-final.png";
+import TravelPosterPitch from "@/assets/images/travel-poster-pitch-final.png";
+import TravelPosterPostCard from "@/assets/images/travel-poster-both-postcards-final.png";
+import CustomizedInstagramIcon from "@/icons/icons/customized-instagram.svg";
+import CustomizedFacebookIcon from "@/icons/icons/customized-facebook-logo.svg";
+import CustomizedLinkedInIcon from "@/icons/icons/customized-linkedin-logo.svg";
 
 
 export default function Home() {
@@ -42,17 +53,35 @@ export default function Home() {
 
           <div className={styles.card}>
             <div className={styles.projectQuantity}>25</div>
-            <div className={styles.cardImage}>
-              <img className={styles.travelPosterImage} src="images/travel-poster-in-context-final.png" alt="" />
-            </div>
 
+            <Image
+              src={TravelPosterInContextFinal.src}
+              alt=""
+              width={200}
+              height={300}
+            />
             <div className={styles.cardArrow}>
-              <img src="/icons/arrow.svg" width="50px" height="50px" />
+
+              <Image
+                src={Arrow.src}
+                alt=""
+                width={50}
+                height={50}
+              />
             </div>
           </div>
+
+
           <div className={styles.card}>
-            <img src="images/travel-poster-draft-1.png" alt="" />
+
+            <Image
+              src={TravelPosterDraft1.src}
+              alt=""
+              width={200}
+              height={300}
+            />
           </div>
+
           <div className={styles.card}>
             <h3 className={styles.cardSubtitle}>Brief Description</h3>
             <p className={styles.cardText}>
@@ -61,12 +90,19 @@ export default function Home() {
               creating my own stamp, creating another logo brand, coding portfolio websites, practicing coding
               exercises, and creating my own innovative artwork using, photoshop, adobe illustrator, and
               procreate.</p>
+
             <h3>See Current Projects</h3>
+
             <div className={styles.cardLine}>
-              <img src="/icons/line.svg" width="50px" height="50px" />
+
+              <Image
+                src={Line.src}
+                alt=""
+                width={50}
+                height={50}
+              />
             </div>
           </div>
-
 
 
           <div className={styles.card}>
@@ -92,43 +128,87 @@ export default function Home() {
             <h2>5</h2>
             <h2>Current Projects</h2>
             <div className={styles.cardArrow}>
-              <img src="/icons/arrow.svg" width="50px" height="50px" />
+
+              <Image
+                src={Arrow.src}
+                alt=""
+                width={50}
+                height={50}
+              />
             </div>
           </div>
 
           <div className={styles.card}>
-            <h3>Advertise projects</h3>
+            <h3>Project Overview</h3>
             <p>Over the past few months I've been working on exciting, new, and creative projects that are different
               from what I created in the past. These projects include, creating my own potential brand logo,
               creating my own stamp, and editing photos in photoshop.</p>
             <h3>See Upcoming Projects!</h3>
             <div className={styles.cardLine}>
-              <img src="/icons/line.svg" width="50px" height="50px" />
+              <Image
+                src={Line.src}
+                alt=""
+                width={50}
+                height={50}
+              />
             </div>
           </div>
 
           {/* <!-- ONE LARGE CARD (replaces 7–12) --> */}
           <div className={styles.card + " " + styles.cardLarge}>
             Large Feature Box
-            <img src="/images/illustrative-set-perfume-perfection-final.png" alt="Large Feature Box" />
+
+            <Image
+              src={IllustrativeSetFinal.src}
+              alt=""
+              width={200}
+              height={300}
+            />
           </div>
 
           <div className={styles.card}>
             <h3>Past Projects</h3>
             <div className={styles.pastProjectQuantity}>23</div>
+
+            <Image
+              src={TravelPosterPitch.src}
+              alt=""
+              width={200}
+              height={300}
+            />
+
             <div className={styles.cardArrow}>
-              <img src="/icons/arrow.svg" width="50px" height="50px" />
+
+              <Image
+                src={Arrow.src}
+                alt=""
+                width={50}
+                height={50}
+              />
             </div>
-            <img className={styles.pastProjectImage} src="/images/travel-poster-pitch-final.png" alt="Past Project" />
           </div>
 
 
           <div className={styles.card}>
             <h1>Big projects</h1>
-            <img className={styles.bigProjects} src="/images/travel-poster-postcards-both-version-2.png" alt="Big Project" />
+
+            <Image
+              src={TravelPosterPostCard.src}
+              alt=""
+              width={200}
+              height={300}
+            />
+
             <h3>See Past Projects</h3>
+
             <div className={styles.cardLine}>
-              <img src="/icons/line.svg" width="50px" height="50px" />
+
+              <Image
+                src={Line.src}
+                alt=""
+                width={50}
+                height={50}
+              />
             </div>
           </div>
         </div>
@@ -153,7 +233,13 @@ export default function Home() {
             <br /> I finally feel like I found a industry where I can express my authentic self and my own art.
           </p>
           <div className={styles.cardArrow}>
-            <img src="/icons/arrow.svg" width="50px" height="50px" />
+
+            <Image
+              src={Arrow.src}
+              alt=""
+              width={50}
+              height={50}
+            />
           </div>
         </div>
 
@@ -175,11 +261,29 @@ export default function Home() {
           </div>
 
           <div className={styles.contactCube}>
-            <h3>Social</h3>
-            <img src="/icons/customized-facebook-logo.svg" width="50px" height="50px" />
-            <img src="/icons/customized-linkedin-logo.svg" width="50px" height="50px" />
-            <img src="/icons/customized-instagram.svg" width="50px" height="50px" />
 
+            <h3>Social</h3>
+
+            <Image
+              src={CustomizedInstagramIcon.src}
+              alt=""
+              width={50}
+              height={50}
+            />
+
+            <Image
+              src={CustomizedFacebookIcon.src}
+              alt=""
+              width={50}
+              height={50}
+            />
+
+            <Image
+              src={CustomizedLinkedInIcon.src}
+              alt=""
+              width={50}
+              height={50}
+            />
           </div>
         </div>
       </section>

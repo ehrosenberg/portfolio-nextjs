@@ -1,0 +1,488 @@
+.container {
+    max-width: var(--container-max);
+    margin: 0 auto;
+    padding-left: var(--gutter-desktop);
+    padding-right: var(--gutter-desktop);
+}
+
+/* page background for visible white gutters between cards */
+body {
+    background: #f6f6f6;
+    color: #111;
+    margin: 0;
+    padding: 0;
+}
+
+.nav {
+    background: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+}
+
+.nav nav a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+
+.nav .cta {
+    font-weight: bold;
+}
+
+.hero {
+    background: linear-gradient(90deg,
+            #ffe7c2 0%,
+            #ffb347 50%,
+            #ff7aa2 100%);
+    display: flex;
+    align-items: center;
+}
+
+.heroContainer {
+    margin: x;
+    margin: auto;
+    display: flex;
+    gap: 100px;
+    padding: 40px;
+}
+
+.imageBox {
+    width: 320px;
+    height: 320px;
+    background: white;
+    padding: 10px;
+}
+
+.imageBox img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.right {
+    max-width: 500px;
+}
+
+.right h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.right h1 span {
+    color: #b43aac;
+}
+
+.right p {
+    font-size: 14px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+.actions {
+    display: flex;
+    gap: 15px;
+}
+
+.btn {
+    padding: 12px 22px;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 14px;
+}
+
+.btn.primary {
+    background: black;
+    color: white;
+}
+
+.btn.secondary {
+    background: pink;
+    color: #b43aac;
+    border: 1px solid #ddd;
+}
+
+
+
+/* FORCE ALL GRID CARDS TO BE TRUE SQUARES */
+.grid>.card,
+.grid>.cardLarge {
+    aspect-ratio: 1 / 1;
+}
+
+
+/* GRID SECTION */
+.gridSection {
+    background: transparent;
+    padding: 12px 8px;
+}
+
+/* GRID */
+.grid {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: minmax(260px, auto);
+    gap: 28px;
+    box-sizing: border-box;
+    /* white surface so gaps are visible as white space */
+    /* background: #ffffff; */
+    padding: 32px;
+    border-radius: 12px;
+    /* box-shadow: 0 8px 24px rgba(16, 24, 40, 0.06); */
+}
+
+/* CARD BASE */
+.card {
+    background: #000;
+    color: #fff;
+    border-radius: 8px;
+    padding: 24px;
+    border: 1px solid rgba(255, 255, 255, 0.06);
+    cursor: pointer;
+
+    /* perfect square */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 280px;
+    width: 100%;
+    box-sizing: border-box;
+    position: relative;
+    outline: 1px solid rgba(255, 255, 255, 0.04);
+    transition: transform 0.18s ease, box-shadow 0.18s ease;
+}
+
+.card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 12px 30px rgba(2, 6, 23, 0.32);
+}
+
+.cardLarge {
+    grid-column: 3 / span 2;
+    /* right half */
+    grid-row: 2 / span 2;
+    padding: 32px;
+    border-radius: 10px;
+}
+
+.card.cardLarge img {
+    width: 100%;
+    height: 100%;
+}
+
+.projectQuantity {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.pastProjects {
+    grid-column: 3;
+}
+
+.cardArrow {
+    position: absolute;
+    right: 16px;
+    bottom: 16px;
+    width: 50px;
+    transition: transform 0.25s ease-out;
+    transform: rotate(0deg);
+
+}
+
+.card:hover .cardArrow,
+.about:hover .cardArrow {
+    transform: rotate(180deg);
+}
+
+/* IMAGE PLACEHOLDER */
+.imageCard {
+    background: #111;
+}
+
+
+.imageCard {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 16px;
+}
+
+.imageCard img {
+    width: auto;
+    height: auto;
+    max-width: 88%;
+    max-height: 88%;
+    object-fit: contain;
+}
+
+.card img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    display: block;
+}
+
+/* TYPOGRAPHY */
+.card h2 {
+    font-size: 56px;
+    margin-bottom: 8px;
+}
+
+.card .travelPosterImage {
+    width: 225px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.card .bigProjects {
+    width: 120px
+}
+
+.card .pastProjectImage {
+    width: 200px;
+    justify-content: center;
+}
+
+.card,
+.cardLarge,
+.about,
+.contactCube {
+    border-radius: 3px;
+}
+
+.card img {
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+
+/* ABOUT + CONTACT SPLIT */
+.aboutContact {
+    margin: 0;
+    padding: 0 12px;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 24px;
+}
+
+/* ABOUT SIDE */
+.about {
+    position: relative;
+    background: black;
+    padding: 28px;
+    border-radius: 5px;
+}
+
+.about h2 {
+    font-size: 36px;
+    margin-bottom: 16px;
+    color: white;
+}
+
+.about p {
+    color: white;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+/* CONTACT SIDE */
+.contact {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 24px;
+}
+
+
+/* CONTACT CUBES */
+.contactCube {
+    background: black;
+    color: white;
+    padding: 30px;
+    border-radius: 5px;
+    align-items: center;
+    flex-direction: center;
+    justify-content: flex-end;
+
+}
+
+
+.contactContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    /* Reduced top padding to move title up */
+    background-color: black;
+    color: white;
+}
+
+/* h2 {
+    margin-top: 0;
+    margin-bottom: 20px;
+} */
+
+/* The wrapper for all inputs */
+.formGroup {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    max-width: 500px;
+    /* Adjust based on your preference */
+}
+
+/* Styling for the small inputs */
+/* input {
+    width: calc(50% - 5px);
+    padding: 10px;
+    box-sizing: border-box;
+} */
+
+/* Styling for the large message box */
+/* textarea {
+    width: 100%;
+
+    margin-top: 16px;
+    padding: 10px;
+    box-sizing: border-box;
+    resize: vertical;
+
+} */
+
+.contact form {
+    align-items: center;
+    justify-content: center;
+
+}
+
+.contactInput {
+    display: block;
+    width: 100%;
+    margin: 0;
+}
+
+.contactCube h3 {
+    font-size: 24px;
+    margin-bottom: 8px;
+}
+
+
+.contactCube img {
+    margin-right: 5px;
+}
+
+.nameWrapper,
+.phoneEmailWrapper {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+@media (max-width: 768px) {
+    .container {
+        padding-left: var(--gutter-mobile);
+        padding-right: var(--gutter-mobile);
+    }
+
+    /* NAVBAR */
+    .nav {
+        padding: 16px 20px;
+    }
+
+    .nav nav {
+        display: none;
+    }
+
+    .logo {
+        font-size: 28px;
+    }
+
+    /* HERO SECTION */
+    .hero {
+        padding: 40px 20px;
+    }
+
+    .heroContainer {
+        flex-direction: column;
+        gap: 30px;
+        padding: 0;
+    }
+
+
+    /* IMAGE */
+    .imageBox {
+        width: 100%;
+        max-width: 280px;
+        aspect-ratio: 1 / 1;
+        height: auto;
+        margin: 0 auto;
+    }
+
+    /* TEXT */
+    .right {
+        max-width: 100%;
+        text-align: left;
+    }
+
+    .right h1 {
+        font-size: 32px;
+        line-height: 1.2;
+    }
+
+    .right p {
+        font-size: 15px;
+    }
+
+
+    /* BUTTONS */
+    .actions {
+        flex-direction: column;
+        gap: 12px;
+        width: 100%;
+    }
+
+    .btn {
+        width: 100%;
+        text-align: center;
+    }
+
+    .gridSection {
+        padding: 20px 12px;
+    }
+
+
+    .grid {
+        grid-template-columns: 1fr;
+        gap: 20px;
+        padding: 18px;
+        border-radius: 8px;
+    }
+
+    .card,
+    .cardLarge {
+        grid-column: span 1;
+        grid-row: span 1;
+        aspect-ratio: 1 / 1;
+        min-height: auto;
+    }
+
+    .card h2 {
+        font-size: 40px;
+    }
+
+    .aboutContact {
+        grid-template-columns: 1fr;
+    }
+
+    .contact {
+        grid-template-columns: 1fr;
+    }
+}
