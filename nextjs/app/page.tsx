@@ -1,5 +1,6 @@
 import styles from "./page.module.css";
 import Image from "next/image";
+import RepeatingPatternsPerfumePerfection from "@/assets/images/repeating-patterns-perfume-perfection.png";
 import TravelPosterDraft1 from "@/assets/images/travel-poster-draft-1.png";
 import TravelPosterInContextFinal from "@/assets/images/travel-poster-in-context-final.png";
 import Arrow from "@/icons/icons/arrow.svg";
@@ -10,6 +11,8 @@ import TravelPosterPostCard from "@/assets/images/travel-poster-both-postcards-f
 import CustomizedInstagramIcon from "@/icons/icons/customized-instagram.svg";
 import CustomizedFacebookIcon from "@/icons/icons/customized-facebook-logo.svg";
 import CustomizedLinkedInIcon from "@/icons/icons/customized-linkedin-logo.svg";
+import Navigation from "@/components/header/Navigation";
+import Footer from "@/components/footer/Footer";
 
 
 export default function Home() {
@@ -19,7 +22,7 @@ export default function Home() {
         <div className={styles.logo}>My Logo</div>
         <nav>
           <a href="#">Home</a>
-          <a href="/projects.html">Projects</a>
+          <a href="/projects">Projects</a>
           <a href="#">Updates</a>
           <a href="#">About</a>
           <a className={styles.cta} href="#">Get In Touch</a>
@@ -30,7 +33,13 @@ export default function Home() {
         <div className={styles.heroContainer + " " + styles.container}>
           <div className={styles.left}>
             <div className={styles.imageBox}>
-              <img src="/images/repeating-patterns-perfume-perfection.png" alt="Portfolio Image" />
+
+              <Image
+                src={RepeatingPatternsPerfumePerfection.src}
+                alt=""
+                width={200}
+                height={300}
+              />
             </div>
           </div>
 
