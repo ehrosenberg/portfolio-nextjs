@@ -1,126 +1,118 @@
 
-// AUTO-GENERATED FILE — DO NOT EDIT MANUALLY
+// AUTO-GENERATED FILE — DO NOT EDIT
 
-import styles from "@/assets/images/page.module.css";
-import Image from "@/assets/images/image";
 import ClassicalMusicLogo from "@/assets/images/classical-music-logo.jpg";
-import WeeklyExerciseAnimaLSnowLeopard from "@/assets/images/weekly-exercise-animal-snow-leopard.png";
-import WeeklyExerciseSeaShell from "@/assets/images/weekly-exercise-shell-sea-shell.png";
+import WeeklyExerciseAnimalSnowLeopard from "@/assets/images/weekly-exercise-animal-snow-leopard.png";
+import WeeklyExerciseShellSeaShell from "@/assets/images/weekly-exercise-shell-sea-shell.png";
 import WeeklyExerciseFruitOrange from "@/assets/images/weekly-exercise-fruit-orange.png";
 import WeeklyExerciseJellyfish from "@/assets/images/weekly-exercise-jellyfish.png";
 import WeeklyExerciseSalonChair from "@/assets/images/weekly-exercise-salon-chair.png";
-import WeeklyExercisePlantHydrangea from "@/assets/images/weekly-exercise-plant-hydrangea-flower.png";
+import WeeklyExercisePlantHydrangeaFlower from "@/assets/images/weekly-exercise-plant-hydrangea-flower.png";
 import WeeklyExerciseFlameBlueFire from "@/assets/images/weekly-exercise-flame-blue-fire.png";
 import WeeklyExerciseCarLamborghini from "@/assets/images/weekly-exercise-car-lamborghini.png";
 import WeeklyExerciseDessertEclair from "@/assets/images/weekly-exercise-dessert-eclair.png";
 import WeeklyExerciseExtraCreditHoliday from "@/assets/images/weekly-exercise-extra-credit-holiday.png";
-import RepeatingPatternsPerfumePerfection from "@/assets/images/repeating-patterns-perfume-perfection.png";
+import IllustrativeSetPerfumePerfectionFinal from "@/assets/images/illustrative-set-perfume-perfection-final.png";
 import ShortcutStudyGuide from "@/assets/images/shortcut-study-guide.png";
-import Monogram3IdeaSketches from "@/assets/images/monogram-3-ideas-sketches.png";
+import Monogram3IdeasSketches from "@/assets/images/monogram-3-ideas-sketches.png";
 import MonogramFinal from "@/assets/images/monogram-final.png";
 import MonogramMockupInContext from "@/assets/images/monogram-mockup-in-context.png";
-import RecipeOneSheetIngredients from "@/assets/images/recipe-onesheet-ingredients.png";
-import RecipeOneSheetInstructions from "@/assets/images/recipe-onesheet-instructions.png";
-import IndependentStudyProjectCoverPage from "@/assets/images/Independent Study Project Cover page.png";
-import IndependentStudyProjectProposal from "@/assets/images/Independent Study Project Proposal.png";
-import IndependentStudyProjectReferences from "@/assets/images/Independent Study Project references.png";
-import IndependentStudyProjectTravelPage from "@/assets/images/Independent Study Project travel page.png";
-import IndependentStudyProjectPostcard from "@/assets/images/Independent Study Project Postcard.png";
+import RecipeOnesheetIngredients from "@/assets/images/recipe-onesheet-ingredients.png";
+import RecipeOnesheetInstructions from "@/assets/images/recipe-onesheet-instructions.png";
+import IndependentStudyProjectCoverPage from "@/assets/images/independent-study-project-cover-page.png";
+import IndependentStudyProjectProposal from "@/assets/images/independent-study-project-proposal.png";
+import IndependentStudyProjectReferences from "@/assets/images/independent-study-project-references.png";
+import IndependentStudyProjectTravelPage from "@/assets/images/independent-study-project-travel-page.png";
+import IndependentStudyProjectPostcard from "@/assets/images/independent-study-project-postcard.png";
 import IllustrativeSetPerfumePerfection from "@/assets/images/illustrative-set-perfume-perfection.png";
-import BeautyInCargoBlackandColoredVersion from "@/assets/images/beauty-in-cargo-black-and-colored-version.png";
+import SeaShellParadiseBeachCropadjust from "@/assets/images/sea-shell-paradise-beach-cropadjust.png";
+import BlendingModesWeeklyExercise from "@/assets/images/blending-modes-weekly-exercise.png";
+import ComplexBackgroundsWeeklyExercise from "@/assets/images/complex-backgrounds-weekly-exercise.png";
+import PersonalBrandingBlueprint from "@/assets/images/personal-branding-blueprint.png";
+import MyVision from "@/assets/images/my-vision.png";
+import CoreValuesPassions from "@/assets/images/core-values-passions.png";
+import Goals from "@/assets/images/goals.png";
+import BrandAttributes from "@/assets/images/brand-attributes.png";
+import SwotAnalysis from "@/assets/images/swot-analysis.png";
+import Competition from "@/assets/images/competition.png";
+import ThreeWordBrand from "@/assets/images/three-word-brand.png";
+import PersonalBrandManifesto from "@/assets/images/personal-brand-manifesto.png";
+import ImpressMeCoverPage from "@/assets/images/impress-me-cover-page.png";
+import ImpressMeCarvingsIllustrations from "@/assets/images/impress-me-carvings-illustrations.png";
+import AttributesAssignmentCoverPage from "@/assets/images/attributes-assignment-cover-page.png";
+import AttributesAssignmentMyName from "@/assets/images/attributes-assignment-my-name.png";
+import AttributesAssignmentPencilLabeling from "@/assets/images/attributes-assignment-pencil-labeling.png";
+import AttributesAssignmentIllustratorLabeling from "@/assets/images/attributes-assignment-illustrator-labeling.png";
+import MyFavoriteTypeAssignmentCoverPage from "@/assets/images/my-favorite-type-assignment-cover-page.png";
+import MyFavoriteTypeAssignmentSketches from "@/assets/images/my-favorite-type-assignment-sketches.png";
+import MyFavoriteTypeAssignmentResearch from "@/assets/images/my-favorite-type-assignment-research.png";
+import MyFavoriteTypeAssignmentFinal from "@/assets/images/my-favorite-type-assignment-final.png";
+import YouCanQuoteMeAssignmentFinalPage from "@/assets/images/you-can-quote-me-assignment-final-page.png";
+import RapidDesign1AssignmentCoverPage from "@/assets/images/rapid-design-1-assignment-cover-page.png";
+import RapidDesign1AssignmentSketches from "@/assets/images/rapid-design-1-assignment-sketches.png";
+import RapidDesign1AssignmentMoodboard from "@/assets/images/rapid-design-1-assignment-moodboard.png";
+import RapidDesign1AssignmentVersion1 from "@/assets/images/rapid-design-1-assignment-version-1.png";
+import RapidDesign1AssignmentVersion2 from "@/assets/images/rapid-design-1-assignment-version-2.png";
+import RapidDesign1AssignmentFinalVersion from "@/assets/images/rapid-design-1-assignment-final-version.png";
+import RapidDesign1AssignmentSticker from "@/assets/images/rapid-design-1-assignment-sticker.png";
+import SlingshotSkoolForParents3FinalVersionAssignmentCoverPage from "@/assets/images/slingshot-skool-for-parents-3-final-version-assignment-cover-page.png";
+import SlingshotSkoolForParents3FinalVersionAssignmentLetterhead from "@/assets/images/slingshot-skool-for-parents-3-final-version-assignment-letterhead.png";
+import SlingshotSkoolForParents3FinalVersionAssignmentProjectOverview from "@/assets/images/slingshot-skool-for-parents-3-final-version-assignment-project-overview.png";
+import SlingshotSkoolForParents3FinalVersionAssignmentTheProblem from "@/assets/images/slingshot-skool-for-parents-3-final-version-assignment-the-problem.png";
+import SlingshotSkoolForParents3FinalVersionAssignmentTheSolution from "@/assets/images/slingshot-skool-for-parents-3-final-version-assignment-the-solution.png";
+import SlingshotSkoolForParents3FinalVersionAssignmentMoodboard from "@/assets/images/slingshot-skool-for-parents-3-final-version-assignment-moodboard.png";
+import SlingshotSkoolForParents3FinalVersionAssignmentSketches from "@/assets/images/slingshot-skool-for-parents-3-final-version-assignment-sketches.png";
+import SlingshotSkoolForParents3FinalVersionAssignmentSolution1 from "@/assets/images/slingshot-skool-for-parents-3-final-version-assignment-solution-1.png";
+import SlingshotSkoolForParents3FinalVersionAssignmentSolution2 from "@/assets/images/slingshot-skool-for-parents-3-final-version-assignment-solution-2.png";
+import SlingshotSkoolForParents3FinalVersionAssignmentIdeasFramework from "@/assets/images/slingshot-skool-for-parents-3-final-version-assignment-ideas-framework.png";
+import SlingshotSkoolForParents3FinalVersionAssignmentBookletShowcase from "@/assets/images/slingshot-skool-for-parents-3-final-version-assignment-booklet-showcase.png";
+import SlingshotSkoolForParents3FinalVersionAssignmentBookletShowcase2 from "@/assets/images/slingshot-skool-for-parents-3-final-version-assignment-booklet-showcase-2.png";
+import SlingshotSkoolForParents3FinalVersionAssignmentTypography from "@/assets/images/slingshot-skool-for-parents-3-final-version-assignment-typography.png";
+import SlingshotSkoolForParents3FinalVersionAssignmentVisualSystem from "@/assets/images/slingshot-skool-for-parents-3-final-version-assignment-visual-system.png";
+import SlingshotSkoolForParents3FinalVersionAssignmentBookletCoverPageBackPage from "@/assets/images/slingshot-skool-for-parents-3-final-version-assignment-booklet-cover-page-back-page.png";
+import SlingshotSkoolForParents3FinalVersionAssignmentBookletInsidePage from "@/assets/images/slingshot-skool-for-parents-3-final-version-assignment-booklet-inside-page.png";
+import SlingshotSkoolForParents3FinalVersionAssignmentBookletWhatIsSlingshot from "@/assets/images/slingshot-skool-for-parents-3-final-version-assignment-booklet-what-is-slingshot.png";
+import SlingshotSkoolForParents3FinalVersionAssignmentBookletIdeasFramework from "@/assets/images/slingshot-skool-for-parents-3-final-version-assignment-booklet-ideas-framework.png";
+import SlingshotSkoolForParents3FinalVersionAssignmentRealExamples from "@/assets/images/slingshot-skool-for-parents-3-final-version-assignment-real-examples.png";
+import SlingshotSkoolForParents3FinalVersionAssignmentInContextFinalProposal from "@/assets/images/slingshot-skool-for-parents-3-final-version-assignment-in-context-final-proposal.png";
+import SlingshotSkoolForParents3FinalVersionAssignmentThankYouPage from "@/assets/images/slingshot-skool-for-parents-3-final-version-assignment-thank-you-page.png";
+import AnimatedAlbumCoverAssignmentSketches from "@/assets/images/animated-album-cover-assignment-sketches.png";
+import AnimatedAlbumCoverAssignmentMoodboard from "@/assets/images/animated-album-cover-assignment-moodboard.png";
+import AnimatedAlbumCoverAssignmentBWVersionFirstDraft from "@/assets/images/animated-album-cover-assignment-b-w-version-first-draft.png";
+import AnimatedAlbumCoverAssignmentFinalVersionWithColor from "@/assets/images/animated-album-cover-assignment-final-version-with-color.png";
+import ExploreMagazineCoverAssignment from "@/assets/images/explore-magazine-cover-assignment.png";
+import CreativeInventionAssignmentAd from "@/assets/images/creative-invention-assignment-ad.png";
+import BeautyInCargoBlackAndColoredVersion from "@/assets/images/beauty-in-cargo-black-and-colored-version.png";
 import BeautyInCargoCoverPage from "@/assets/images/beauty-in-cargo-cover-page.png";
 import BeautyInCargoBusinessCard from "@/assets/images/beauty-in-cargo-business-card.png";
 import BeautyInCargoThankYouLetter from "@/assets/images/beauty-in-cargo-thank-you-letter.png";
 import BeautyInCargoBusinessPackageFirstLayout from "@/assets/images/beauty-in-cargo-business-package-first-layout.png";
 import BeautyInCargoBusinessPackageSecondLayout from "@/assets/images/beauty-in-cargo-business-package-second-layout.png";
 import BeautyInCargoBusinessPackageThirdLayout from "@/assets/images/beauty-in-cargo-business-package-third-layout.png";
-import BeautyInCargoBusinessPackageFinalPackage from "@/assets/images/beauty-in-cargo-final-package.png";
+import BeautyInCargoFinalPackage from "@/assets/images/beauty-in-cargo-final-package.png";
 import BeautyInCargoInContext from "@/assets/images/beauty-in-cargo-in-context.png";
 import BeautyInCargoStyleGuideFinal from "@/assets/images/beauty-in-cargo-style-guide-final.png";
 import BeautyInCargoSticker from "@/assets/images/beauty-in-cargo-sticker.png";
-import SeaShellParadiseBeachCropAdjust from "@/assets/images/Sea_Shell_Paradise_Beach_CropAdjust.png";
-import BlendingModesWeeklyExercise from "@/assets/images/Blending_Modes_Weekly_Exercise.png";
-import ComplexBackgroundsWeeklyExercise from "@/assets/images/Complex_Backgrounds_Weekly_Exercise.png";
-import PersonalBrandingBlueprint from "@/assets/images/Personal_Branding_Blueprint.png";
-import PersonalBrandingBlueprintMyVision from "@/assets/images/My_Vision.png";
-import PersonalBrandingBlueprintCoreValues from "@/assets/images/Core_Values_Passions.png";
-import PersonalBrandingBlueprintGoals from "@/assets/images/Goals.png";
-import PersonalBrandingBlueprintBrandAttributes from "@/assets/images/Brand_Attributes.png";
-import PersonalBrandingBlueprintSWOTAnalysis from "@/assets/images/SWOT_Analysis.png";
-import PersonalBrandingBlueprintCompetition from "@/assets/images/Competition.png";
-import PersonalBrandingBlueprintThreeWordBrand from "@/assets/images/Three-Word_Brand.png";
-import PersonalBrandingBlueprintBrandManifesto from "@/assets/images/Personal_Brand_Manifesto.png";
-import ImpressMeCoverPage from "@/assets/images/Impress_Me_Cover_Page.png";
-import ImpressMeCarvingsIllustrations from "@/assets/images/Impress_Me_Carvings_Illustrations.png";
-import AttributesAssignmentCoverPage from "@/assets/images/Attributes_Assignment_Cover_Page.png";
-import AttributesAssignmentMyName from "@/assets/images/Attributes_Assignment_My_Name.png";
-import AttributesAssignmentPencilLabeling from "@/assets/images/Attributes_Assignment_Pencil_Labeling.png";
-import AttributesAssignmentIllustratorLabeling from "@/assets/images/Attributes_Assignment_Illustrator_Labeling.png";
-import MyFavoriteTypeAssignmentCoverPage from "@/assets/images/My_Favorite_Type_Assignment_Cover_Page.png";
-import MyFavoriteTypeAssignmentSketches from "@/assets/images/My_Favorite_Type_Assignment_Sketches.png";
-import MyFavoriteTypeAssignmentResearch from "@/assets/images/My_Favorite_Type_Assignment_Research.png";
-import MyFavoriteTypeAssignmentFinal from "@/assets/images/My_Favorite_Type_Assignment_Final.png";
-import YouCanQuoteMeAssignmentFinal from "@/assets/images/You_Can_Quote_Me_Assignment_Final_Page.png";
-import RapidDesign1AssignmentCoverPage from "@/assets/images/Rapid_Design_1_Assignment_Cover_Page.png";
-import CustomizedInstagramIcon from "@/assets/images/customized-instagram.svg";
-import CustomizedFacebookIcon from "@/assets/images/customized-facebook-logo.svg";
-import CustomizedLinkedInIcon from "@/assets/images/customized-linkedin-logo.svg";
-import Navigation from "@/assets/images/Navigation";
-import Footer from "@/assets/images/Footer";
-import IllustrativeSetPerfumePerfectionFinal from "@/assets/images/illustrative-set-perfume-perfection-final.png";
-import RapidDesign1AssignmentSketches from "@/assets/images/Rapid_Design_1_Assignment_Sketches.png";
-import RapidDesign1AssignmentMoodboard from "@/assets/images/Rapid_Design_1_Assignment_Moodboard.png";
-import RapidDesign1AssignmentVersion1 from "@/assets/images/Rapid_Design_1_Assignment_Version_1.png";
-import RapidDesign1AssignmentVersion2 from "@/assets/images/Rapid_Design_1_Assignment_Version_2.png";
-import RapidDesign1AssignmentFinalVersion from "@/assets/images/Rapid_Design_1_Assignment_Final_Version.png";
-import RapidDesign1AssignmentSticker from "@/assets/images/Rapid_Design_1_Assignment_Sticker.png";
-import SlingshotSkoolForParents3FinalVersionAssignmentCoverPage from "@/assets/images/Slingshot_Skool_For_Parents_3_Final_Version_Assignment_Cover_Page.png";
-import SlingshotSkoolForParents3FinalVersionAssignmentLetterhead from "@/assets/images/Slingshot_Skool_For_Parents_3_Final_Version_Assignment_Letterhead.png";
-import SlingshotSkoolForParents3FinalVersionAssignmentProjectOverview from "@/assets/images/Slingshot_Skool_For_Parents_3_Final_Version_Assignment_Project_Overview.png";
-import SlingshotSkoolForParents3FinalVersionAssignmentTheProblem from "@/assets/images/Slingshot_Skool_For_Parents_3_Final_Version_Assignment_The_Problem.png";
-import SlingshotSkoolForParents3FinalVersionAssignmentTheSolution from "@/assets/images/Slingshot_Skool_For_Parents_3_Final_Version_Assignment_The_Solution.png";
-import SlingshotSkoolForParents3FinalVersionAssignmentMoodboard from "@/assets/images/Slingshot_Skool_For_Parents_3_Final_Version_Assignment_Moodboard.png";
-import SlingshotSkoolForParents3FinalVersionAssignmentSketches from "@/assets/images/Slingshot_Skool_For_Parents_3_Final_Version_Assignment_Sketches.png";
-import SlingshotSkoolForParents3FinalVersionAssignmentSolution1 from "@/assets/images/Slingshot_Skool_For_Parents_3_Final_Version_Assignment_Solution_1.png";
-import SlingshotSkoolForParents3FinalVersionAssignmentSolution2 from "@/assets/images/Slingshot_Skool_For_Parents_3_Final_Version_Assignment_Solution_2.png";
-import SlingshotSkoolForParents3FinalVersionAssignmentIDEASFramework from "@/assets/images/Slingshot_Skool_For_Parents_3_Final_Version_Assignment_IDEAS_Framework.png";
-import SlingshotSkoolForParents3FinalVersionAssignmentBookletShowcase from "@/assets/images/Slingshot_Skool_For_Parents_3_Final_Version_Assignment_Booklet_Showcase.png";
-import SlingshotSkoolForParents3FinalVersionAssignmentBookletShowcase2 from "@/assets/images/Slingshot_Skool_For_Parents_3_Final_Version_Assignment_Booklet_Showcase_2.png";
-import SlingshotSkoolForParents3FinalVersionAssignmentTypography from "@/assets/images/Slingshot_Skool_For_Parents_3_Final_Version_Assignment_Typography.png";
-import SlingshotSkoolForParents3FinalVersionAssignmentVisualSystem from "@/assets/images/Slingshot_Skool_For_Parents_3_Final_Version_Assignment_Visual_System.png";
-import SlingshotSkoolForParents3FinalVersionAssignmentBookletCoverPageBackPage from "@/assets/images/Slingshot_Skool_For_Parents_3_Final_Version_Assignment_Booklet_Cover_Page_Back_Page.png";
-import SlingshotSkoolForParents3FinalVersionAssignmentBookletInsidePage from "@/assets/images/Slingshot_Skool_For_Parents_3_Final_Version_Assignment_Booklet_Inside_Page.png";
-import SlingshotSkoolForParents3FinalVersionAssignmentBookletWhatIsSlingshot from "@/assets/images/Slingshot_Skool_For_Parents_3_Final_Version_Assignment_Booklet_What_Is_Slingshot.png";
-import SlingshotSkoolForParents3FinalVersionAssignmentBookletIDEASFramework from "@/assets/images/Slingshot_Skool_For_Parents_3_Final_Version_Assignment_Booklet_IDEAS_Framework.png";
-import SlingshotSkoolForParents3FinalVersionAssignmentRealExamples from "@/assets/images/Slingshot_Skool_For_Parents_3_Final_Version_Assignment_Real_Examples.png";
-import SlingshotSkoolForParents3FinalVersionAssignmentInContextFinalProposal from "@/assets/images/Slingshot_Skool_For_Parents_3_Final_Version_Assignment_In_Context_Final_Proposal.png";
-import SlingshotSkoolForParents3FinalVersionAssignmentThankYouPage from "@/assets/images/Slingshot_Skool_For_Parents_3_Final_Version_Assignment_Thank_You_Page.png";
-import AnimatedAlbumCoverAssignmentSketches from "@/assets/images/Animated_Album_Cover_Assignment_Sketches.png";
-import AnimatedAlbumCoverAssignmentMoodboard from "@/assets/images/Animated_Album_Cover_Assignment_Moodboard.png";
-import AnimatedAlbumCoverAssignmentBWVersionFirstDraft from "@/assets/images/Animated_Album_Cover_Assignment_B&W_Version_First_Draft.png";
-import AnimatedAlbumCoverAssignmentFinalVersionWithColor from "@/assets/images/Animated_Album_Cover_Assignment_Final_Version_With_Color.png";
-import ExploreMagazineCoverAssignment from "@/assets/images/Explore_Magazine_Cover_Assignment.png";
-import CreativeInventionAssignmentAD from "@/assets/images/Creative_Invention_Assignment_AD.png";
-import SilhouetteBeautyMyBrandingCoverPage from "@/assets/images/SilhouetteBeauty_MyBrandingCoverPage.png";
-import SilhouetteBeautyMyBrandingSketches from "@/assets/images/SilhouetteBeauty_MyBrandingSketches.png";
-import SilhouetteBeautyMyBranding5Ws from "@/assets/images/SilhouetteBeauty_MyBranding5Ws.png";
-import SilhouetteBeautyMyBrandingPitch from "@/assets/images/SilhouetteBeauty_MyBrandingPitch.png";
-import SilhouetteFramesMyBrandingIdea1Page from "@/assets/images/SilhouetteFrames_MyBrandingIdea_1_Page.png";
-import SilhouetteBeautyMyBrandingIdea2Page from "@/assets/images/SilhouetteBeauty_MyBrandingIdea_2_Page.png";
-import ModernSilhouettesMyBrandingIdea3Page from "@/assets/images/ModernSilhouettes_MyBrandingIdea_3_Page.png";
-import ElegantShapesMyBrandingIdea4Page from "@/assets/images/ElegantShapes_MyBrandingIdea_4_Page.png";
-import EntwiningDesignsMyBrandingIdea5Page from "@/assets/images/EntwiningDesigns_MyBrandingIdea_5_Page.png";
-import SimplePortraitsMyBrandingIdea6Page from "@/assets/images/SimplePortraits_MyBrandingIdea_6_Page.png";
-import SimplePortraitsPick1Of3FinalSelections from "@/assets/images/SimplePortraits_Pick_1_of_3_Final_Selections.png";
-import SilhouetteBeautyNamePick2Of3FinalSelections from "@/assets/images/SilhouetteBeauty_Name_Pick_2_of_3_Final_Selections.png";
-import EntwiningDesignsPick3Of3FinalSelections from "@/assets/images/EntwiningDesigns_Pick_3_of_3_Final_Selections.png";
-import SilhouetteBeautyMyBrandingFinalSelectionRoughDraftVersion from "@/assets/images/SilhouetteBeauty_MyBranding_Final_Selection_Rough_Draft_Version.png";
-import SilhouetteBeautyMyBrandingFinalSelectionFinalVersion from "@/assets/images/SilhouetteBeauty_MyBranding_Final_Selection_Final_Version.png";
-import SilhouetteBeautyMyBrandingBusinessCardFrontSide from "@/assets/images/SilhouetteBeauty_MyBranding_BusinessCard_Front_Side.png";
-import SilhouetteBeautyMyBrandingBusinessCardBackSide from "@/assets/images/SilhouetteBeauty_MyBranding_BusinessCard_Back_Side.png";
-import SilhouetteBeautyMyBrandingBusinessPackageLayout1 from "@/assets/images/SilhouetteBeauty_MyBranding_BusinessPackage_Layout_1.png";
-import SilhouetteBeautyMyBrandingBusinessPackageLayout2 from "@/assets/images/SilhouetteBeauty_MyBranding_BusinessPackage_Layout_2.png";
-import SilhouetteBeautyMyBrandingBusinessPackageLayout3 from "@/assets/images/SilhouetteBeauty_MyBranding_BusinessPackage_Layout_3.png";
+import SilhouettebeautyMybrandingcoverpage from "@/assets/images/silhouettebeauty-mybrandingcoverpage.png";
+import SilhouettebeautyMybrandingsketches from "@/assets/images/silhouettebeauty-mybrandingsketches.png";
+import SilhouettebeautyMybranding5ws from "@/assets/images/silhouettebeauty-mybranding5ws.png";
+import SilhouettebeautyMybrandingpitch from "@/assets/images/silhouettebeauty-mybrandingpitch.png";
+import SilhouetteframesMybrandingidea1Page from "@/assets/images/silhouetteframes-mybrandingidea-1-page.png";
+import SilhouettebeautyMybrandingidea2Page from "@/assets/images/silhouettebeauty-mybrandingidea-2-page.png";
+import ModernsilhouettesMybrandingidea3Page from "@/assets/images/modernsilhouettes-mybrandingidea-3-page.png";
+import ElegantshapesMybrandingidea4Page from "@/assets/images/elegantshapes-mybrandingidea-4-page.png";
+import EntwiningdesignsMybrandingidea5Page from "@/assets/images/entwiningdesigns-mybrandingidea-5-page.png";
+import SimpleportraitsMybrandingidea6Page from "@/assets/images/simpleportraits-mybrandingidea-6-page.png";
+import SimpleportraitsPick1Of3FinalSelections from "@/assets/images/simpleportraits-pick-1-of-3-final-selections.png";
+import SilhouettebeautyNamePick2Of3FinalSelections from "@/assets/images/silhouettebeauty-name-pick-2-of-3-final-selections.png";
+import EntwiningdesignsPick3Of3FinalSelections from "@/assets/images/entwiningdesigns-pick-3-of-3-final-selections.png";
+import SilhouettebeautyMybrandingFinalSelectionRoughDraftVersion from "@/assets/images/silhouettebeauty-mybranding-final-selection-rough-draft-version.png";
+import SilhouettebeautyMybrandingFinalSelectionFinalVersion from "@/assets/images/silhouettebeauty-mybranding-final-selection-final-version.png";
+import SilhouettebeautyMybrandingBusinesscardFrontSide from "@/assets/images/silhouettebeauty-mybranding-businesscard-front-side.png";
+import SilhouettebeautyMybrandingBusinesscardBackSide from "@/assets/images/silhouettebeauty-mybranding-businesscard-back-side.png";
+import SilhouettebeautyMybrandingBusinesspackageLayout1 from "@/assets/images/silhouettebeauty-mybranding-businesspackage-layout-1.png";
+import SilhouettebeautyMybrandingBusinesspackageLayout2 from "@/assets/images/silhouettebeauty-mybranding-businesspackage-layout-2.png";
+import SilhouettebeautyMybrandingBusinesspackageLayout3 from "@/assets/images/silhouettebeauty-mybranding-businesspackage-layout-3.png";
 
 export const projects = [
   {
@@ -132,13 +124,13 @@ export const projects = [
   {
     "title": "Weekly Exercise Animal Snow Leopard",
     "description": "A vibrant illustration representing the beauty and grace of the snow leopard.",
-    image: WeeklyExerciseAnimaLSnowLeopard,
+    image: WeeklyExerciseAnimalSnowLeopard,
     "category": "personal past"
   },
   {
     "title": "Weekly Exercise Shell Sea Shell",
     "description": "A vibrant illustration representing the beauty and grace of the sea shell.",
-    image: WeeklyExerciseSeaShell,
+    image: WeeklyExerciseShellSeaShell,
     "category": "personal past"
   },
   {
@@ -162,7 +154,7 @@ export const projects = [
   {
     "title": "Weekly Exercise Plant Hydrangea Flower",
     "description": "A vibrant illustration representing the beauty and grace of the hydrangea flower.",
-    image: WeeklyExercisePlantHydrangea,
+    image: WeeklyExercisePlantHydrangeaFlower,
     "category": "personal past"
   },
   {
@@ -204,7 +196,7 @@ export const projects = [
   {
     "title": "Monogram 3 Ideas Sketches",
     "description": "A vibrant illustration representing the beauty and grace of the monogram.",
-    image: Monogram3IdeaSketches,
+    image: Monogram3IdeasSketches,
     "category": "personal past"
   },
   {
@@ -222,13 +214,13 @@ export const projects = [
   {
     "title": "Recipe One-sheet Ingredients",
     "description": "A vibrant illustration representing the beauty and grace of the recipe.",
-    image: RecipeOneSheetIngredients,
+    image: RecipeOnesheetIngredients,
     "category": "personal past"
   },
   {
     "title": "Recipe One-sheet Instructions",
     "description": "A vibrant illustration representing the beauty and grace of the recipe.",
-    image: RecipeOneSheetInstructions,
+    image: RecipeOnesheetInstructions,
     "category": "personal past"
   },
   {
@@ -270,7 +262,7 @@ export const projects = [
   {
     "title": "Sea Shell Paradise Beach",
     "description": "A vibrant image with sea shells, sand, and beautiful blue water was all edited and\n                  created using Adobe Photoshop.",
-    image: SeaShellParadiseBeachCropAdjust,
+    image: SeaShellParadiseBeachCropadjust,
     "category": "personal current"
   },
   {
@@ -294,49 +286,49 @@ export const projects = [
   {
     "title": "My Vision",
     "description": "My personal vision for my brand, and future goals.",
-    image: PersonalBrandingBlueprintMyVision,
+    image: MyVision,
     "category": "personal current"
   },
   {
     "title": "Core Values & Passions",
     "description": "My core values and passions, expressed through creativity, digital drawings, and fun\n                shapes.",
-    image: PersonalBrandingBlueprintCoreValues,
+    image: CoreValuesPassions,
     "category": "personal current"
   },
   {
     "title": "Goals",
     "description": "My short and long-term goals for my career goals, and personal brand development.",
-    image: PersonalBrandingBlueprintGoals,
+    image: Goals,
     "category": "personal current"
   },
   {
     "title": "Brand Attributes",
     "description": "My brand attributes and characteristics that define my personal brand identity.",
-    image: PersonalBrandingBlueprintBrandAttributes,
+    image: BrandAttributes,
     "category": "personal current"
   },
   {
     "title": "SWOT Analysis",
     "description": "My SWOT analysis for my personal brand and career development.",
-    image: PersonalBrandingBlueprintSWOTAnalysis,
+    image: SwotAnalysis,
     "category": "personal current"
   },
   {
     "title": "Competition Analysis",
     "description": "An analysis of my competitors in the design industry, and in the design field I'm most\n                interested in, UX/UI design.",
-    image: PersonalBrandingBlueprintCompetition,
+    image: Competition,
     "category": "personal current"
   },
   {
     "title": "Three-Word Brand",
     "description": "My three-word brand that describes my personal qualities, the design aesthetics I tend to\n                go for, and what inspires my creative design process.",
-    image: PersonalBrandingBlueprintThreeWordBrand,
+    image: ThreeWordBrand,
     "category": "personal current"
   },
   {
     "title": "Personal Brand Manifesto",
     "description": "My personal brand manifesto that outlines my values, my purpose, who I am as a designer,\n                my vision for what I want for my future, and what tech-industry/high-end job I want to\n                be apart of.",
-    image: PersonalBrandingBlueprintBrandManifesto,
+    image: PersonalBrandManifesto,
     "category": "personal current"
   },
   {
@@ -402,7 +394,7 @@ export const projects = [
   {
     "title": "You Can Quote Me Final Design",
     "description": "The final design of my \"You Can Quote Me\" assignment, showcasing the ten quotes that I found\n                most inspiring and meaningful, presented in a creative layout. I made a final version of the\n                brain I created by only using\n                words from the quote \"Design Is Intelligence Made Visible\".",
-    image: YouCanQuoteMeAssignmentFinal,
+    image: YouCanQuoteMeAssignmentFinalPage,
     "category": "personal current"
   },
   {
@@ -504,7 +496,7 @@ export const projects = [
   {
     "title": "IDEAS Framework",
     "description": "This is showcasing what the IDEAS framework method is, and how it can help guide parents better\n                so they can help there children succeed in school.",
-    image: SlingshotSkoolForParents3FinalVersionAssignmentIDEASFramework,
+    image: SlingshotSkoolForParents3FinalVersionAssignmentIdeasFramework,
     "category": "personal current"
   },
   {
@@ -552,7 +544,7 @@ export const projects = [
   {
     "title": "IDEAS Framework",
     "description": "This is showcasing an inside page of my booklet design for the Slingshot Skool For Parents\n                campaign, which includes information about the IDEAS framework, and how it can help guide\n                parents better so they can help there children succeed in school.",
-    image: SlingshotSkoolForParents3FinalVersionAssignmentBookletIDEASFramework,
+    image: SlingshotSkoolForParents3FinalVersionAssignmentBookletIdeasFramework,
     "category": "personal current"
   },
   {
@@ -606,13 +598,13 @@ export const projects = [
   {
     "title": "Creative Invention AD",
     "description": "This project showcases a beautiful, unique, beauty advertisement that I designed using brushes,\n                filters, blending modes, and used various layer adjustment effects within Photoshop.",
-    image: CreativeInventionAssignmentAD,
+    image: CreativeInventionAssignmentAd,
     "category": "personal current"
   },
   {
     "title": "Beauty In Cargo Black and Colored Version",
     "description": "This project showcases my brand's logo, Beauty In Cargo, in both black and colored\n                versions, demonstrating versatility in design.",
-    image: BeautyInCargoBlackandColoredVersion,
+    image: BeautyInCargoBlackAndColoredVersion,
     "category": "business past"
   },
   {
@@ -654,7 +646,7 @@ export const projects = [
   {
     "title": "Beauty In Cargo Final Package",
     "description": "This project showcases my brand's final business package design for Beauty In Cargo,\n                demonstrating design and layout skills.",
-    image: BeautyInCargoBusinessPackageFinalPackage,
+    image: BeautyInCargoFinalPackage,
     "category": "business past"
   },
   {
@@ -678,121 +670,121 @@ export const projects = [
   {
     "title": "Silhouette Beauty Cover Page",
     "description": "This project showcases my brand's cover page design for Silhouette Beauty, demonstrating\n                design and layout skills.",
-    image: SilhouetteBeautyMyBrandingCoverPage,
+    image: SilhouettebeautyMybrandingcoverpage,
     "category": "business projects"
   },
   {
     "title": "Silhouette Beauty Sketches",
     "description": "This project showcases my brand's sketches for Silhouette Beauty, demonstrating\n                fun ideas, and a creative thought process.",
-    image: SilhouetteBeautyMyBrandingSketches,
+    image: SilhouettebeautyMybrandingsketches,
     "category": "business projects"
   },
   {
     "title": "Silhouette Beauty's 5W's",
     "description": "This project showcases my brand's 5W's for Beauty In Cargo, demonstrating\n                what my business is, what is special about it, and why I created Silhouette Beauty.",
-    image: SilhouetteBeautyMyBranding5Ws,
+    image: SilhouettebeautyMybranding5ws,
     "category": "business projects"
   },
   {
     "title": "Silhouette Beauty Pitch",
     "description": "This project showcases my brand's pitch deck for Silhouette Beauty, demonstrating\n                certain styles I was going for in my brand, colors, fonts, and shapes.",
-    image: SilhouetteBeautyMyBrandingPitch,
+    image: SilhouettebeautyMybrandingpitch,
     "category": "business projects"
   },
   {
     "title": "Silhouette Frames Branding Idea 1",
     "description": "This project showcases the first brand design I had, which is called Silhouette Frames.",
-    image: SilhouetteFramesMyBrandingIdea1Page,
+    image: SilhouetteframesMybrandingidea1Page,
     "category": "business projects"
   },
   {
     "title": "Silhouette Beauty Branding Idea 2",
     "description": "This project showcases the second brand design I had, which is called Silhouette Beauty.",
-    image: SilhouetteBeautyMyBrandingIdea2Page,
+    image: SilhouettebeautyMybrandingidea2Page,
     "category": "business projects"
   },
   {
     "title": "Modern Silhouettes Branding Idea 3",
     "description": "This project showcases the third brand design I had, which is called Modern Silhouettes.",
-    image: ModernSilhouettesMyBrandingIdea3Page,
+    image: ModernsilhouettesMybrandingidea3Page,
     "category": "business projects"
   },
   {
     "title": "Elegant Shapes Branding Idea 4",
     "description": "This project showcases the fourth brand design I had, which is called Elegant Shapes.",
-    image: ElegantShapesMyBrandingIdea4Page,
+    image: ElegantshapesMybrandingidea4Page,
     "category": "business projects"
   },
   {
     "title": "Entwining Designs Branding Idea 5",
     "description": "This project showcases the fifth brand design I had, which is called Entwining Designs.",
-    image: EntwiningDesignsMyBrandingIdea5Page,
+    image: EntwiningdesignsMybrandingidea5Page,
     "category": "business projects"
   },
   {
     "title": "Simple Portraits Branding Idea 6",
     "description": "This project showcases my brand's cover page design for Simple Portraits, demonstrating\n                design and layout skills.",
-    image: SimplePortraitsMyBrandingIdea6Page,
+    image: SimpleportraitsMybrandingidea6Page,
     "category": "business projects"
   },
   {
     "title": "Simple Portraits Final Selection 1 of 3",
     "description": "Simple Portraits is the first final selection of three main logo designs I was choosing from,\n                to officially use for my business.",
-    image: SimplePortraitsPick1Of3FinalSelections,
+    image: SimpleportraitsPick1Of3FinalSelections,
     "category": "business projects"
   },
   {
     "title": "Silhouette Beauty Name Final Selections 2 of 3",
     "description": "Silhouette Beauty is the second final selection of three main brand names/designs I was choosing\n                from,\n                to officially use for my business.",
-    image: SilhouetteBeautyNamePick2Of3FinalSelections,
+    image: SilhouettebeautyNamePick2Of3FinalSelections,
     "category": "business projects"
   },
   {
     "title": "Entwining Designs Final Selections 3 of 3",
     "description": "Entwining Designs is the third and final selection of three main logo designs I was choosing\n                from, to officially use for my business.",
-    image: EntwiningDesignsPick3Of3FinalSelections,
+    image: EntwiningdesignsPick3Of3FinalSelections,
     "category": "business projects"
   },
   {
     "title": "Silhouette Beauty Final Selection Rough Draft Version",
     "description": "Silhouette Beauty is the brand logo/design I ended up going with. This was my rough draft version\n                of my chosen design.",
-    image: SilhouetteBeautyMyBrandingFinalSelectionRoughDraftVersion,
+    image: SilhouettebeautyMybrandingFinalSelectionRoughDraftVersion,
     "category": "business projects"
   },
   {
     "title": "Silhouette Beauty Final Selection Final Version",
     "description": "Silhouette Beauty is the brand logo/design I ended up going with. This was my final version of my\n                chosen design.",
-    image: SilhouetteBeautyMyBrandingFinalSelectionFinalVersion,
+    image: SilhouettebeautyMybrandingFinalSelectionFinalVersion,
     "category": "business projects"
   },
   {
     "title": "Silhouette Beauty Business Card Front Side",
     "description": "This is the front side of my business card for Silhouette Beauty.",
-    image: SilhouetteBeautyMyBrandingBusinessCardFrontSide,
+    image: SilhouettebeautyMybrandingBusinesscardFrontSide,
     "category": "business projects"
   },
   {
     "title": "Silhouette Beauty Business Card Back Side",
     "description": "This is the back side of my business card for Silhouette Beauty.",
-    image: SilhouetteBeautyMyBrandingBusinessCardBackSide,
+    image: SilhouettebeautyMybrandingBusinesscardBackSide,
     "category": "business projects"
   },
   {
     "title": "Silhouette Beauty Business Package Layout 1",
     "description": "This is the first layout of my business package for Silhouette Beauty.",
-    image: SilhouetteBeautyMyBrandingBusinessPackageLayout1,
+    image: SilhouettebeautyMybrandingBusinesspackageLayout1,
     "category": "business projects"
   },
   {
     "title": "Silhouette Beauty Business Package Layout 2",
     "description": "This is the second layout of my business package for Silhouette Beauty.",
-    image: SilhouetteBeautyMyBrandingBusinessPackageLayout2,
+    image: SilhouettebeautyMybrandingBusinesspackageLayout2,
     "category": "business projects"
   },
   {
     "title": "Silhouette Beauty Business Package Layout 3",
     "description": "This is the third layout of my business package for Silhouette Beauty.",
-    image: SilhouetteBeautyMyBrandingBusinessPackageLayout3,
+    image: SilhouettebeautyMybrandingBusinesspackageLayout3,
     "category": "business projects"
   }
 ];

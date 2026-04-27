@@ -1,10 +1,12 @@
 const fs = require("fs");
+const path = require("path");
 
 // =====================
 // CONFIG
 // =====================
 const INPUT_PATH = "../app/projects/page.tsx";
 const OUTPUT_PATH = "../data/projects.js";
+const IMAGE_DIR = path.join(__dirname, "../assets/images");
 
 // =====================
 // HELPERS
@@ -14,63 +16,42 @@ const OUTPUT_PATH = "../data/projects.js";
 const normalize = (str) =>
     str
         .toLowerCase()
-        .replace(/['"]/g, "")
-        .replace(/\s+/g, "")
-        .replace(/_/g, "")
-        .replace(/-/g, "")
-        .trim();
+        .replace(/\.[^/.]+$/, "")
+        .replace(/[^a-z0-9]+/g, "");
 
-// convert filename → variable name
+// filename → variable
 const toVariableName = (fileName) => {
     return fileName
-        .replace(/\.[^/.]+$/, "") // remove extension
-        .replace(/[^a-zA-Z0-9]/g, " ") // replace symbols with space
+        .replace(/\.[^/.]+$/, "")
+        .replace(/[^a-zA-Z0-9]+/g, " ")
+        .trim()
         .split(" ")
-        .filter(Boolean)
-        .map((word, i) =>
-            i === 0
-                ? word.charAt(0).toUpperCase() + word.slice(1)
-                : word.charAt(0).toUpperCase() + word.slice(1)
-        )
+        .map(word => word.charAt(0).toUpperCase() + word.slice(1))
         .join("");
 };
 
 // =====================
-// READ FILE
+// STEP 1: READ ACTUAL FILES
 // =====================
-const file = fs.readFileSync(INPUT_PATH, "utf-8");
+const files = fs.readdirSync(IMAGE_DIR);
 
-// =====================
-// STEP 1: EXISTING IMPORTS
-// =====================
-const importMatches = [
-    ...file.matchAll(/import\s+(\w+)\s+from\s+["'](.+?)["']/g),
-];
+const fileLookup = {};
 
-const importMap = {};
-const existingImports = [];
-
-importMatches.forEach((match) => {
-    const variable = match[1];
-    const path = match[2];
-    const fileName = path.split("/").pop();
-
-    importMap[normalize(fileName)] = variable;
-    existingImports.push({
-        variable,
-        fileName,
-    });
+files.forEach((file) => {
+    fileLookup[normalize(file)] = file;
 });
 
 // =====================
-// STEP 2: EXTRACT ARTICLES
+// STEP 2: READ JSX
 // =====================
+const file = fs.readFileSync(INPUT_PATH, "utf-8");
+
 const articleMatches = [
     ...file.matchAll(/<article[\s\S]*?<\/article>/g),
 ];
 
 const projects = [];
-const autoImports = [];
+const importMap = new Map();
 
 articleMatches.forEach((block) => {
     const html = block[0];
@@ -85,71 +66,49 @@ articleMatches.forEach((block) => {
     const rawImage = imageMatch ? imageMatch[1].trim() : "";
     const category = categoryMatch ? categoryMatch[1].trim() : "";
 
-    const normalizedImage = normalize(rawImage);
+    if (!rawImage) return;
 
-    let imageVariable;
+    // 🔥 match OLD → NEW filename
+    const normalized = normalize(rawImage);
+    const realFile = fileLookup[normalized];
 
-    // ✅ CASE 1: existing import
-    if (importMap[normalizedImage]) {
-        imageVariable = importMap[normalizedImage];
-    } else {
-        // 🔥 CASE 2: auto-create import
-        imageVariable = toVariableName(rawImage);
-
-        autoImports.push({
-            variable: imageVariable,
-            fileName: rawImage,
-        });
+    if (!realFile) {
+        console.log(`❌ NO MATCH: ${rawImage}`);
+        return;
     }
+
+    const variableName = toVariableName(realFile);
+
+    importMap.set(variableName, realFile);
 
     projects.push({
         title,
         description,
-        image: imageVariable,
+        image: variableName,
         category,
     });
 });
 
 // =====================
-// STEP 3: BUILD IMPORT LIST
+// BUILD IMPORTS
 // =====================
-const allImportsMap = new Map();
-
-// existing imports
-existingImports.forEach(({ variable, fileName }) => {
-    allImportsMap.set(variable, fileName);
-});
-
-// auto imports (avoid duplicates)
-autoImports.forEach(({ variable, fileName }) => {
-    if (!allImportsMap.has(variable)) {
-        allImportsMap.set(variable, fileName);
-    }
-});
-
-// =====================
-// STEP 4: FORMAT IMPORTS
-// =====================
-const importLines = [...allImportsMap.entries()].map(
+const importLines = [...importMap.entries()].map(
     ([variable, fileName]) =>
         `import ${variable} from "@/assets/images/${fileName}";`
 );
 
 // =====================
-// STEP 5: BUILD OUTPUT
+// OUTPUT
 // =====================
 const output = `
-// AUTO-GENERATED FILE — DO NOT EDIT MANUALLY
+// AUTO-GENERATED FILE — DO NOT EDIT
 
 ${importLines.join("\n")}
 
 export const projects = ${JSON.stringify(projects, null, 2)
-        .replace(/"image": "(\w+)"/g, "image: $1")};
+        .replace(/"image": "([^"]+)"/g, "image: $1")};
 `;
 
-// =====================
-// WRITE FILE
-// =====================
 fs.writeFileSync(OUTPUT_PATH, output);
 
-console.log("🔥 DONE — FULL projects.js generated with ALL imports");
+console.log("🔥 DONE — now using RENAMED files correctly");
