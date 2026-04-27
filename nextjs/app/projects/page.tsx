@@ -1,16 +1,71 @@
 import styles from "./page.module.css";
 import Image from "next/image";
-import RepeatingPatternsPerfumePerfection from "@/assets/images/repeating-patterns-perfume-perfection.png";
-import TravelPosterDraft1 from "@/assets/images/travel-poster-draft-1.png";
-import TravelPosterInContextFinal from "@/assets/images/travel-poster-in-context-final.png";
-import IllustrativeSetFinal from "@/assets/images/illustrative-set-perfume-perfection-final.png";
-import TravelPosterPitch from "@/assets/images/travel-poster-pitch-final.png";
-import TravelPosterPostCard from "@/assets/images/travel-poster-both-postcards-final.png";
+// import ClassicalMusicLogo from "@/assets/images/classical-music-logo.jpg";
+// import WeeklyExerciseAnimaLSnowLeopard from "@/assets/images/weekly-exercise-animal-snow-leopard.png";
+// import WeeklyExerciseSeaShell from "@/assets/images/weekly-exercise-shell-sea-shell.png";
+// import WeeklyExerciseFruitOrange from "@/assets/images/weekly-exercise-fruit-orange.png";
+// import WeeklyExerciseJellyfish from "@/assets/images/weekly-exercise-jellyfish.png";
+// import WeeklyExerciseSalonChair from "@/assets/images/weekly-exercise-salon-chair.png";
+// import WeeklyExercisePlantHydrangea from "@/assets/images/weekly-exercise-plant-hydrangea-flower.png";
+// import WeeklyExerciseFlameBlueFire from "@/assets/images/weekly-exercise-flame-blue-fire.png";
+// import WeeklyExerciseCarLamborghini from "@/assets/images/weekly-exercise-car-lamborghini.png";
+// import WeeklyExerciseDessertEclair from "@/assets/images/weekly-exercise-dessert-eclair.png";
+// import WeeklyExerciseExtraCreditHoliday from "@/assets/images/weekly-exercise-extra-credit-holiday.png";
+// import RepeatingPatternsPerfumePerfection from "@/assets/images/repeating-patterns-perfume-perfection.png";
+// import ShortcutStudyGuide from "@/assets/images/shortcut-study-guide.png";
+// import Monogram3IdeaSketches from "@/assets/images/monogram-3-ideas-sketches.png";
+// import MonogramFinal from "@/assets/images/monogram-final.png";
+// import MonogramMockupInContext from "@/assets/images/monogram-mockup-in-context.png";
+// import RecipeOneSheetIngredients from "@/assets/images/recipe-onesheet-ingredients.png";
+// import RecipeOneSheetInstructions from "@/assets/images/recipe-onesheet-instructions.png";
+// import IndependentStudyProjectCoverPage from "@/assets/images/Independent Study Project Cover page.png";
+// import IndependentStudyProjectProposal from "@/assets/images/Independent Study Project Proposal.png";
+// import IndependentStudyProjectReferences from "@/assets/images/Independent Study Project references.png";
+// import IndependentStudyProjectTravelPage from "@/assets/images/Independent Study Project travel page.png";
+// import IndependentStudyProjectPostcard from "@/assets/images/Independent Study Project Postcard.png";
+// import IllustrativeSetPerfumePerfection from "@/assets/images/illustrative-set-perfume-perfection.png";
+// import BeautyInCargoBlackandColoredVersion from "@/assets/images/beauty-in-cargo-black-and-colored-version.png";
+// import BeautyInCargoCoverPage from "@/assets/images/beauty-in-cargo-cover-page.png";
+// import BeautyInCargoBusinessCard from "@/assets/images/beauty-in-cargo-business-card.png";
+// import BeautyInCargoThankYouLetter from "@/assets/images/beauty-in-cargo-thank-you-letter.png";
+// import BeautyInCargoBusinessPackageFirstLayout from "@/assets/images/beauty-in-cargo-business-package-first-layout.png";
+// import BeautyInCargoBusinessPackageSecondLayout from "@/assets/images/beauty-in-cargo-business-package-second-layout.png";
+// import BeautyInCargoBusinessPackageThirdLayout from "@/assets/images/beauty-in-cargo-business-package-third-layout.png";
+// import BeautyInCargoBusinessPackageFinalPackage from "@/assets/images/beauty-in-cargo-final-package.png";
+// import BeautyInCargoInContext from "@/assets/images/beauty-in-cargo-in-context.png";
+// import BeautyInCargoStyleGuideFinal from "@/assets/images/beauty-in-cargo-style-guide-final.png";
+// import BeautyInCargoSticker from "@/assets/images/beauty-in-cargo-sticker.png";
+// import SeaShellParadiseBeachCropAdjust from "@/assets/images/Sea_Shell_Paradise_Beach_CropAdjust.png";
+// import BlendingModesWeeklyExercise from "@/assets/images/Blending_Modes_Weekly_Exercise.png";
+// import ComplexBackgroundsWeeklyExercise from "@/assets/images/Complex_Backgrounds_Weekly_Exercise.png";
+// import PersonalBrandingBlueprint from "@/assets/images/Personal_Branding_Blueprint.png";
+// import PersonalBrandingBlueprintMyVision from "@/assets/images/My_Vision.png";
+// import PersonalBrandingBlueprintCoreValues from "@/assets/images/Core_Values_Passions.png";
+// import PersonalBrandingBlueprintGoals from "@/assets/images/Goals.png";
+// import PersonalBrandingBlueprintBrandAttributes from "@/assets/images/Brand_Attributes.png";
+// import PersonalBrandingBlueprintSWOTAnalysis from "@/assets/images/SWOT_Analysis.png";
+// import PersonalBrandingBlueprintCompetition from "@/assets/images/Competition.png";
+// import PersonalBrandingBlueprintThreeWordBrand from "@/assets/images/Three-Word_Brand.png";
+// import PersonalBrandingBlueprintBrandManifesto from "@/assets/images/Personal_Brand_Manifesto.png";
+// import ImpressMeCoverPage from "@/assets/images/Impress_Me_Cover_Page.png"
+// import ImpressMeCarvingsIllustrations from "@/assets/images/Impress_Me_Carvings_Illustrations.png";
+// import AttributesAssignmentCoverPage from "@/assets/images/Attributes_Assignment_Cover_Page.png";
+// import AttributesAssignmentMyName from "@/assets/images/Attributes_Assignment_My_Name.png";
+// import AttributesAssignmentPencilLabeling from "@/assets/images/Attributes_Assignment_Pencil_Labeling.png";
+// import AttributesAssignmentIllustratorLabeling from "@/assets/images/Attributes_Assignment_Illustrator_Labeling.png";
+// import MyFavoriteTypeAssignmentCoverPage from "@/assets/images/My_Favorite_Type_Assignment_Cover_Page.png";
+// import MyFavoriteTypeAssignmentSketches from "@/assets/images/My_Favorite_Type_Assignment_Sketches.png";
+// import MyFavoriteTypeAssignmentResearch from "@/assets/images/My_Favorite_Type_Assignment_Research.png";
+// import MyFavoriteTypeAssignmentFinal from "@/assets/images/My_Favorite_Type_Assignment_Final.png";
+// import YouCanQuoteMeAssignmentFinal from "@/assets/images/You_Can_Quote_Me_Assignment_Final_Page.png";
+// import RapidDesign1AssignmentCoverPage from "@/assets/images/Rapid_Design_1_Assignment_Cover_Page.png";
 import CustomizedInstagramIcon from "@/icons/icons/customized-instagram.svg";
 import CustomizedFacebookIcon from "@/icons/icons/customized-facebook-logo.svg";
 import CustomizedLinkedInIcon from "@/icons/icons/customized-linkedin-logo.svg";
 import Navigation from "@/components/header/Navigation";
 import Footer from "@/components/footer/Footer";
+import { projects } from "@/data/index";
+
 
 
 
@@ -55,19 +110,18 @@ export default function Projects() {
       </div>
 
       <main className="projects-wrapper">
-        <div className="projects-grid">
+        <div className={"projects-grid"}>
 
 
-          <!--PAST-->
+          {/* PAST */}
+
           <article className="project-card" data-category="personal past">
-            <img src="images/classical-music-logo.jpg">
-              <div className="overlay">
-                <h4>Classical Music Logo</h4>
-                <p>Modern logo for a classical institution.</p>
-              </div>
+            <img src="images/classical-music-logo.jpg" />
+            <div className="overlay">
+              <h4>Classical Music Logo</h4>
+              <p>Modern logo for a classical institution.</p>
+            </div>
           </article>
-
-
 
           <article className="project-card" data-category="personal past">
             <img src="images/weekly-exercise-animal-snow-leopard.png" />
@@ -77,7 +131,6 @@ export default function Projects() {
             </div>
           </article>
 
-
           <article className="project-card" data-category="personal past">
             <img src="images/weekly-exercise-shell-sea-shell.png">
               <div className="overlay">
@@ -85,7 +138,6 @@ export default function Projects() {
                 <p>A vibrant illustration representing the beauty and grace of the sea shell.</p>
               </div>
           </article>
-
 
           <article className="project-card" data-category="personal past">
             <img src="images/weekly-exercise-fruit-orange.png">
@@ -258,7 +310,8 @@ export default function Projects() {
               </div>
           </article>
 
-          <!--CURRENT-->
+          {/* CURRENT */}
+
           <article className="project-card" data-category="personal current">
             <img src="images/Sea_Shell_Paradise_Beach_CropAdjust.png">
               <div className="overlay">
@@ -785,9 +838,10 @@ export default function Projects() {
         </article>
 
 
-        <!--UPCOMING-->
+        {/* UPCOMING */}
 
-        <!--BUSINESS PROJECTS-->
+        {/* BUSINESS PROJECTS */}
+
         <article className="project-card" data-category="business past">
           <img src="images/beauty-in-cargo-black-and-colored-version.png">
             <div className="overlay">
@@ -906,7 +960,7 @@ export default function Projects() {
         </article>
 
         <article className="project-card" data-category="business projects">
-          <img src="images/SilhouetteBeauty_MyBranding5W's.png">
+          <img src="images/SilhouetteBeauty_MyBranding5Ws.png">
             <div className="overlay">
               <h4>Silhouette Beauty's 5W's</h4>
               <p>This project showcases my brand's 5W's for Beauty In Cargo, demonstrating
