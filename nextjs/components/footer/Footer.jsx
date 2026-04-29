@@ -1,6 +1,10 @@
+import styles from "./Footer.module.css";
+
 const Footer = () => {
     return (
-        <footer>&copy; 2026 My Portfolio Website</footer>
+        <footer className={styles.footer}>
+            © 2026 My Portfolio Website
+        </footer>
     )
 }
 

@@ -1,0 +1,28 @@
+.nav {
+    background: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+}
+
+.nav nav a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+
+.nav .cta {
+    font-weight: bold;
+}
+
+.footer {
+    margin-top: 80px;
+    padding: 40px;
+
+    text-align: center;
+    font-size: 0.9rem;
+
+    color: rgba(0, 0, 0, 0.6);
+}

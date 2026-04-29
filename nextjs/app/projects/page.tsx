@@ -3,8 +3,8 @@ import Image from "next/image";
 import CustomizedInstagramIcon from "@/icons/icons/customized-instagram.svg";
 import CustomizedFacebookIcon from "@/icons/icons/customized-facebook-logo.svg";
 import CustomizedLinkedInIcon from "@/icons/icons/customized-linkedin-logo.svg";
-import Navigation from "@/components/header/Navigation";
-import Footer from "@/components/footer/Footer";
+import Navigation from "@/components/header/Navigation.tsx";
+import Footer from "@/components/footer/Footer.tsx";
 import { projects } from "@/data/projects";
 
 
@@ -14,11 +14,11 @@ export default function Projects() {
       <header className={styles.nav}>
         <div className={styles.logo}>My Logo</div>
         <nav className={styles.navLinks}>
-          <a href="/index.html">Home</a>
-          <a href="/projects.html">Projects</a>
-          <a href="/updates.html">Updates</a>
-          <a href="/about.html">About</a>
-          <a className="cta" href="/contact.html">Get In Touch</a>
+          <a href="/">Home</a>
+          <a href="/projects">Projects</a>
+          <a href="/updates">Updates</a>
+          <a href="/about">About</a>
+          <a className="cta" href="/contact">Get In Touch</a>
         </nav>
       </header>
 
@@ -33,31 +33,11 @@ export default function Projects() {
         </p>
       </section>
 
-      <div className={styles.container}>
-        <section className={styles.projectsHero}>
-          ...
-        </section>
-
-        <div className={styles.projectsTopBar}>
-        </div>
-
-        <div className={styles.categoryRow}>
-        </div>
-
-        <div className={styles.statusRow}>
-          ...
-        </div>
-
-        <main className={styles.projectsWrapper}>
-          ...
-        </main>
-      </div>
-
       <div className={styles.projectsTopBar}>
         <button data-filter="all" className="active">All Projects</button>
       </div>
 
-      <div className={styles.categoryRow}>z
+      <div className={styles.categoryRow}>
         <button data-filter="personal">Personal Projects</button>
         <button data-filter="business">Business Projects</button>
       </div>
@@ -71,15 +51,16 @@ export default function Projects() {
       <main className={styles.projectsWrapper}>
         <div className={styles.projectsGrid}>
           {projects.map((project, index) => (
-            <article key={index} className={styles.projectCard} data-category={project.category}>
-
-              <Image
-                src={project.image.src}
-                alt={project.title}
-                className={styles.projectImage}
-                width={200}
-                height={200}
-              />
+            <article id={project.slug} key={index} className={styles.projectCard} data-category={project.category}>
+              <a href={`/projects/${project.slug}`}>
+                <Image
+                  src={project.image.src}
+                  alt={project.title}
+                  className={styles.projectImage}
+                  width={200}
+                  height={200}
+                />
+              </a>
 
               <div className={styles.overlay}>
                 <h4>{project.title}</h4>

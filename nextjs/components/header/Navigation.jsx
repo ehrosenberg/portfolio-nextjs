@@ -1,18 +1,19 @@
-import { log } from "console";
+import styles from "./nav.module.css";
+
 
 const Navigation = (props) => {
     console.log(props);
     return (
-        <nav>
-            <div><img src="" alt="My awesome logo" /></div>
-            <ul>
-                <li><a href="/">Home</a></li>
-                <li><a href="/projects">Projects</a></li>
-                <li><a href="/updates">Updates</a></li>
-                <li><a href="/about">About</a></li>
-                <li><a href="/getintouch">Get In Touch</a></li>
-            </ul>
-        </nav>
+        <header className={styles.nav}>
+            <div className={styles.logo}>My Logo</div>
+            <nav>
+                <a href="#">Home</a>
+                <a href="/projects">Projects</a>
+                <a href="#">Updates</a>
+                <a href="#">About</a>
+                <a className={styles.cta} href="#">Get In Touch</a>
+            </nav>
+        </header>
     );
 }
 
